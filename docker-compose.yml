@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    container_name: mailchimp-proxy
+    ports:
+      - "80:80"

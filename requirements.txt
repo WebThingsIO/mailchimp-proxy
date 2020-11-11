@@ -1,0 +1,4 @@
+mailchimp3>=3.0.0
+sanic-cors>=0.10.0
+sanic-gzip>=0.3.0
+sanic>=20.9.1
